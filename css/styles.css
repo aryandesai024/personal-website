@@ -1,0 +1,139 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-image: url('../images/bg-grainy-nolight-pc.jpg');
+    background-size: cover;
+    background-position: center;
+    letter-spacing: -5;
+    /* background-repeat: no-repeat; */
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+h1 .highlight {
+    color: rgb(125, 249, 255);
+}
+
+h2 {
+    font-size: 2.25rem;
+    font-weight: 300;
+    line-height: 4rem;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.87rem;
+}
+
+.main {
+    display: flex;
+    margin-top: 11rem;
+    margin-left: 17rem;
+    margin-right: 17rem;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cta-buttons {
+    margin-top: 3.75rem;
+}
+
+.cta-buttons ul {
+    display: flex;
+    justify-content: center;
+    gap: 1.7rem;
+    list-style: none;
+}
+
+.cta-buttons ul li {
+    border: 1px solid rgb(125, 249, 255);
+}
+
+.cta-buttons ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(125, 249, 255);
+    transition: background-color 0.3s ease;
+}
+
+.cta-buttons ul li a:hover {
+    color: #131313;
+    background-color: rgb(125, 249, 255);
+    font-weight: 700;
+}
+
+.social-media {
+    margin-top: 4rem;
+}
+
+.social-media ul {
+    display: flex;
+    justify-content: center;
+    gap: 2.18rem;
+    list-style: none;
+}
+
+.social-media ul li a img {
+    filter: brightness(100);
+    width: 22px;
+    height: 22px;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        margin: 4rem 1rem;
+        gap: 0rem
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    .cta-buttons {
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .main {
+        margin-top: 7rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        gap: 0rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    p {
+        font-size: 0.75rem;
+    }
+
+    .cta-buttons {
+        margin-top: -1rem;
+        font-size: 0.75rem;
+    }
+}
