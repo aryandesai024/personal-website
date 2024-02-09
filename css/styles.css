@@ -14,7 +14,22 @@ html {
     letter-spacing: -5;
     /* background-repeat: no-repeat; */
     text-align: center;
+    cursor: none;
 }
+
+a {
+    cursor: none;
+}
+.custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 9999;
+    transform: rotate(33deg);
+    margin-top: 0px;
+    margin-left: -8.5px;
+  }
 
 h1 {
     font-size: 4rem;
