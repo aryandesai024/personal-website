@@ -114,6 +114,17 @@ p {
         gap: 0rem
     }
 
+    html {
+        cursor: auto;
+    }
+
+    a {
+        cursor: auto;
+    }
+    .custom-cursor {
+        display: none;
+    }
+
     h1 {
         font-size: 2.5rem;
     }
