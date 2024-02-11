@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-books | Aryan Desai</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/css/pages/ebook.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="hamburger-menu" onclick="toggleMenu()"> <!-- Initially visible -->
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="close-menu hidden" onclick="toggleMenu()"> <!-- Initially hidden -->
+                <div class="close-bar"></div>
+                <div class="close-bar"></div>
+            </div>
+        </div>
+        <nav id="navbar">
+            <a href="../index.html"><img class="logo" src="../images/logo.svg" alt="Logo"></a>
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="#">DOWNLOAD CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="book-section">
+        <div class="book-space">
+            <h3>Intro to</h3>
+            <h2>Digital Marketing</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <ul>
+                <li><a href="#" class="get-now-btn" data-book="intro-to-digital-marketing">Get Now</a></li>
+            </ul>  
+        </div>
+        <img src="/images/Group 1.png" alt="Your Image">
+    </section>
+
+    <section class="book-section">
+        <div class="book-space">
+            <h3>Intro to</h3>
+            <h2>Google Ads</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <ul>
+                <li><a href="#" class="get-now-btn" data-book="intro-to-google-ads">Get Now</a></li>
+            </ul>  
+        </div>
+        <img src="/images/Group 1.png" alt="Your Image">
+    </section>
+
+    <section class="book-section">
+        <div class="book-space">
+            <h3>Intro to</h3>
+            <h2>Facebook Ads</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <ul>
+                <li><a href="#" class="get-now-btn" data-book="intro-to-facebook-ads">Get Now</a></li>
+            </ul>  
+        </div>
+        <img src="/images/Group 1.png" alt="Your Image">
+    </section>
+
+    <section class="page-section">
+        <div class="pagination">
+            <ul>
+                <li id="highlight"><a href="#" class="page-link">1</a></li>
+                <li><a href="#" class="page-link">2</a></li>
+                <li><a href="#" class="page-link">3</a></li>
+            </ul>
+        </div>        
+    </section>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Please enter your Name and Email</h2>
+            <p>Once submitted, you will be redirected to the E-Book page</p>
+            <form id="email-form">
+                <input type="text" id="name-input" placeholder="Enter your Name" required><br>
+                <input type="email" id="email-input" placeholder="Enter your Email" required><br>
+                <button type="submit" id="submit-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="custom-cursor">
+        <img src="../images/Cursor-Arrow-PNG.png" alt="Custom Cursor" width="20" height="20">
+      </div>
+
+      <footer>
+        <!-- Your footer content goes here -->
+        <p>&copy; 2024 Aryan Desai | Performance Marketer. All rights reserved.</p>
+    </footer>
+
+    <script src="../js/pages/ebook.js"></script>
+</body>
+</html>
